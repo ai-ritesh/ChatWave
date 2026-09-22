@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* Developer Code Syntax Highlighting Theme (VS Code / Dark Mode) */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #c9d1d9;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #ff7b72;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #a5d6ff;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #79c0ff;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #ff7b72;
+  font-weight: 600;
+}
+
+.token.function,
+.token.class-name {
+  color: #d2a8ff;
+  font-weight: 600;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #ffa657;
+}
+
+/* Custom Scrollbar for Code Snippets */
+.code-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.code-scrollbar::-webkit-scrollbar-track {
+  background: #111b21;
+}
+.code-scrollbar::-webkit-scrollbar-thumb {
+  background: #3b4a54;
+  border-radius: 4px;
+}
+.code-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00a884;
+}

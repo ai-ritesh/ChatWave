@@ -1,0 +1,6 @@
+{
+  "name": "ChatWave",
+  "description": "A real-time developer chat system with large code sharing (up to 10k lines), group codes, QR sharing, fast media transfers, and calls.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
