@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
+/* Subtle WhatsApp-style Chat Wallpaper Pattern */
+.chat-wallpaper {
+  background-color: #0b141a;
+  background-image: radial-gradient(circle at 25px 25px, rgba(255, 255, 255, 0.02) 2%, transparent 0%), 
+                    radial-gradient(circle at 75px 75px, rgba(0, 168, 132, 0.03) 3%, transparent 0%);
+  background-size: 100px 100px;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #374248;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #00a884;
+}
+
 /* Developer Code Syntax Highlighting Theme (VS Code / Dark Mode) */
 .token.comment,
 .token.prolog,
@@ -74,3 +98,4 @@
 .code-scrollbar::-webkit-scrollbar-thumb:hover {
   background: #00a884;
 }
+

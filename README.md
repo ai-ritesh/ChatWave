@@ -18,4 +18,3 @@ View your app in AI Studio: https://ai.studio/apps/2d9d38e8-af84-433d-a0ab-3711b
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-# ChatWave

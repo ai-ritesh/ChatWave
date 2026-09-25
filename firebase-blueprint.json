@@ -7,9 +7,12 @@
       "properties": {
         "uid": { "type": "string" },
         "displayName": { "type": "string" },
+        "username": { "type": "string" },
         "email": { "type": "string" },
         "photoURL": { "type": "string" },
         "isGuest": { "type": "boolean" },
+        "isTemporary": { "type": "boolean" },
+        "expiresAt": { "type": "number" },
         "createdAt": { "type": "string", "format": "date-time" }
       },
       "required": ["uid", "displayName"]
